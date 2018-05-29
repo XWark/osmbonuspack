@@ -27,7 +27,7 @@ import javax.xml.parsers.SAXParserFactory;
  */
 public class MapQuestRoadManager extends RoadManager {
 	
-	static final String MAPQUEST_GUIDANCE_SERVICE = "http://open.mapquestapi.com/guidance/v1/route?";
+	static final String MAPQUEST_GUIDANCE_SERVICE = "http://open.mapquestapi.com/guidance/v2/route?";
 	protected String mApiKey;
 	
 	/**
